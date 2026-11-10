@@ -188,7 +188,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--focus); outline
 
 /* Muestras */
 .video-wrap { min-width: 0; }
-.video { position: relative; width: 100%; aspect-ratio: 16 / 9; max-width: 100%; background: var(--ink); border-radius: 10px; overflow: hidden; }
+.video { position: relative; width: 100%; aspect-ratio: 16 / 9; max-width: 100%; background: var(--ink); border-radius: 10px; overflow: hidden; border: 1px solid var(--on-dark-line); }
 .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .video-note { display: inline-block; margin-top: 18px; }
 
@@ -357,18 +357,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--focus); outline
     </div>
   </section>
 
-  <section class="band mist" id="muestras">
-    <div class="inner split">
-      <h2 class="h2 reveal"><span class="lt">Mira nuestro</span> trabajo</h2>
-      <div class="video-wrap reveal" style="--d: 100ms">
-        <div class="video">
-          <iframe src="https://www.youtube-nocookie.com/embed/BAfpaN37Ox8?rel=0" title="Muestra de vídeo de Elkon Agency" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
-        </div>
-        <a class="link video-note" href="https://youtu.be/BAfpaN37Ox8" target="_blank" rel="noopener">Ver en YouTube</a>
-      </div>
-    </div>
-  </section>
-
   <section class="band" id="para-quien">
     <div class="inner split">
       <h2 class="h2 reveal"><span class="lt">¿Para quién es</span> este servicio?</h2>
@@ -381,6 +369,18 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--focus); outline
           <li class="reveal" style="--d: 240ms">Consultoras tecnológicas</li>
           <li class="reveal" style="--d: 320ms">Software de ciberseguridad</li>
         </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="band dark" id="muestras">
+    <div class="inner split">
+      <h2 class="h2 reveal"><span class="lt">¿Querés verlo mejor</span> en un video?</h2>
+      <div class="video-wrap reveal" style="--d: 100ms">
+        <div class="video">
+          <iframe src="https://www.youtube-nocookie.com/embed/BAfpaN37Ox8?rel=0" title="Muestra de vídeo de Elkon Agency" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+        </div>
+        <a class="link video-note" href="https://youtu.be/BAfpaN37Ox8" target="_blank" rel="noopener">Ver en YouTube</a>
       </div>
     </div>
   </section>
